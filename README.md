@@ -69,3 +69,34 @@ The CNN architecture consists of:
    ```sh
    git clone https://github.com/yourusername/lung-cancer-detection.git
    cd lung-cancer-detection
+   ```
+2. Install dependencies:
+   ```sh
+   pip install -r requirements.txt
+   ```
+3. Run training:
+   ```sh
+   python train.py
+   ```
+4. Run prediction on new images:
+   ```sh
+   python predict.py --image path_to_image.jpg
+   ```
+
+## Results
+
+- The confusion matrix and classification report are included in the results folder.
+- Sample predictions are stored in `predictions.csv`.
+- Training loss and accuracy plots are saved as `loss_plot.png` and `accuracy_plot.png`.
+
+## Conclusion
+
+This project demonstrates the effectiveness of **CNNs optimized using Particle Swarm Optimization** for lung cancer detection. The achieved accuracy of **95.45%** indicates a promising approach for automated medical diagnosis.
+
+## Acknowledgments
+
+Special thanks to the dataset providers and contributors to TensorFlow/Keras.
+
+## License
+
+MIT License
